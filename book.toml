@@ -1,0 +1,33 @@
+[book]
+authors = ["FranklinThe3Cloud"]
+language = "en"
+multilingual = false
+src = "src"
+title = "The3Cloud Docs"
+
+
+[preprocessor.admonish]
+command = "mdbook-admonish"
+assets_version = "3.0.2" # do not edit: managed by `mdbook-admonish install`
+
+[output.html]
+# theme = "my-theme"
+default-theme = "light"
+preferred-dark-theme = "navy"
+smart-punctuation = true
+mathjax-support = false
+copy-fonts = true
+additional-css = ["./css/the3cloud.css", "./assets/css/mdbook-admonish.css"]
+additional-js = ["./assets/js/mermaid.min.js", "./assets/js/mermaid-init.js"]
+no-section-label = false
+git-repository-url = "https://github.com/the3cloud/the3cloud.github.io"
+git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/the3cloud/the3cloud.github.io/edit/master/{path}"
+site-url = "docs.the3cloud.com"
+cname = "docs.the3cloud.com"
+input-404 = "404.md"
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
+
