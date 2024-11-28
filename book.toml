@@ -1,14 +1,17 @@
 [book]
-authors = ["FranklinThe3Cloud"]
+authors = ["steve@the3.cloud", "franklin@the3.cloud"]
 language = "en"
 multilingual = false
 src = "src"
-title = "The3Cloud Docs"
+title = "Welcome to The3Cloud"
 
 
 [preprocessor.admonish]
 command = "mdbook-admonish"
 assets_version = "3.0.2" # do not edit: managed by `mdbook-admonish install`
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
 
 [output.html]
 # theme = "my-theme"
@@ -27,7 +30,5 @@ site-url = "docs.the3cloud.com"
 cname = "docs.the3cloud.com"
 input-404 = "404.md"
 
-[preprocessor.mermaid]
-command = "mdbook-mermaid"
 
 
