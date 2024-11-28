@@ -2,12 +2,22 @@
 
 [Home](./Home.md)
 
-# The3Cloud zkTLS 
-- [Architecture Overview](./docs/zktls_overview.md)
+---
 
-# The3Cloud Developer Utils
-- [How to interact with zkTLS onchain contracts](./docs/how_to_interact_with_zktls_onchain_contracts.md)
-- [How to get payment tokens on testnet](./docs/the3cloud_faucet_design.md)
+# The3Cloud 
+- [Key Features](./home/01_key_features.md)
+- [Architecture](./home/02_architecture.md)
+- [Use Cases](./home/03_use_cases.md)
+- [Roadmap](./home/04_roadmap.md)
+- [Quick Start](./home/05_quick_start.md)
+---
+
+# The3Cloud zkTLS 
+- [Overview](./docs/overview.md)
+- [zkTLS Prover](./zktls/design.md)
+- [zkTLS Contracts](./zktls/contracts_design.md)
+
+---
 
 # On-going Development
 
@@ -17,3 +27,4 @@
 
 - [zkTLS Social Account Integration](./docs/the3cloud_social_account_integration.md)
 
+---

@@ -1,5 +1,1 @@
-# zkTLS Overview
-
-[zk stack]
-
-[on-chain contracts]
+# Architecture Overview
