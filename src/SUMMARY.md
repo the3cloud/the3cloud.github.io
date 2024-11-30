@@ -13,9 +13,9 @@
 ---
 
 # The3Cloud zkTLS 
-- [Overview](./docs/overview.md)
-- [zkTLS Prover](./zktls/design.md)
-- [zkTLS Contracts](./zktls/contracts_design.md)
+- [Overview](./zktls/01_overview.md)
+- [zkTLS implmentaion](./zktls/02_zktls_impl.md)
+- [zkTLS Contracts](./zktls/03_core_contracts.md)
 
 ---
 
