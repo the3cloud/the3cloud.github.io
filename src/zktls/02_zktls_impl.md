@@ -25,9 +25,10 @@ Please make sure the following softwares are installed on your machine:
 ```sh
 git clone https://github.com/the3cloud/zktls.git
 cd zktls
-cargo build
+# compile and test
+cargo b && cargo t && cargo c && cargo d --no-deps
 
-# benchmark with spc
+# benchmark with different setups
 RUST_LOG=info cargo run --release --bin t3zktls-benchmark \
 	--features sp1-backend-cuda
 
