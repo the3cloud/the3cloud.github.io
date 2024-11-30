@@ -8,9 +8,9 @@ The3Cloud is built on three core components:
         - **Data Integrity**: Maintains trust in data exchanges while preserving confidentiality.
 2. The3Cloud zkTLS Smart Contracts
     * **zkTLS Gateway**: Facilitates dApp-prover interactions.
-    * **zkTLS Account Interface**: Manages zkTLS client accounts.
+    * **zkTLS Account**: Manages zkTLS client accounts.
     * **zkTLS Manager**: Handles account creation and fee management.
 3. The3Cloud Dashboard
     * Smart Accounts: Enables OAuth-based social identity verification with EIP-4337 support.
-    * dApp client registration and management: handler for dApp client registration and management.
-    * Proof Scan: Enables the verification of proofs submitted by provers to blockchains, ensuring transparency and trust.
+    * dApp client account management: handles for dApp registration and management with The3Cloud.
+    * Proof Scan: Allows to look up proofs submitted by provers on blockchains, ensuring transparency and trust.

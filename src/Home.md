@@ -11,7 +11,7 @@ The3Cloud delivers the world's first open-source zkTLS implementation, redefinin
 
 Engage with us and contribute to the project:
 
-* [Discord](https://discord.gg/the3cloud)
+* [Discord](https://discord.gg/2KKYsMkeFZ)
 * [Twitter](https://x.com/the3_cloud)
 * [Telegram](https://t.me/the3cloud)
 * [Medium](https://medium.com/@the3cloud) 
