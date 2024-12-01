@@ -9,13 +9,13 @@
 - [Architecture](./home/02_architecture.md)
 - [Use Cases](./home/03_use_cases.md)
 - [Roadmap](./home/04_roadmap.md)
-- [Quick Start](./home/05_quick_start.md)
 ---
 
 # The3Cloud zkTLS 
 - [Overview](./zktls/01_overview.md)
 - [zkTLS implmentaion](./zktls/02_zktls_impl.md)
 - [zkTLS Contracts](./zktls/03_core_contracts.md)
+- [Quick Start](./zktls/04_quick_start.md)
 
 ---
 
