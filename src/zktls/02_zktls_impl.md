@@ -29,15 +29,15 @@ cd zktls
 cargo b && cargo t && cargo c && cargo d --no-deps
 
 # benchmark with different setups
-RUST_LOG=info cargo run --release --bin t3zktls-benchmark \
-	--features sp1-backend-cuda
+RUST_LOG=info cargo run --release --bin t3zktls-benchmark-sp1 \
+	--features cuda
 
-RUST_LOG=info cargo run --release --bin t3zktls-benchmark \
-	--features risc0-backend-cuda
+RUST_LOG=info cargo run --release --bin t3zktls-benchmark-r0 \
+	--features cuda
 
-# benchmark with cpu with avx512f supports
+# benchmark with cpu with avx512f supports (only sp1 backend)
 RUST_LOG=info RUSTFLAGS="-C target-cpu=native -C target-feature=+avx512f" \
-	cargo run --release --bin t3zktls-benchmark
+	cargo run --release --bin t3zktls-benchmark-r0
 ```
 
 ## Hardware Requirements
