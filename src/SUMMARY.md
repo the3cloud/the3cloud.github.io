@@ -16,7 +16,7 @@
 - [zkTLS implmentaion](./zktls/02_zktls_impl.md)
 - [zkTLS Contracts](./zktls/03_core_contracts.md)
 - [Quick Start](./zktls/04_quick_start.md)
-
+- [Fee Structure](./zktls/05_fee_structure.md)
 ---
 
 # On-going Development
